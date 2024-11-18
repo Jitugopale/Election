@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Voting Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <center>
+        <header>
+            <h1>२८५, पलूस-कडेगाव विधानसभा सार्वत्रिक निवडणूक २०२४</h1>
+            <h2>डेमो मतदान यंत्र</h2>
+          </header>
+            
+          <!-- Red box -->
+          <span class="red-box">
+              मतदान दिवशी अ.क्र. १ समोरील हाताचा पंजा चिन्ह समोरील बटण दाबावे.
+            </span>        <button class="share-button" style="margin-left: 20px;"> <img src="./whatsapp.jfif" width="20px" height="20px" style="margin-right: 10px;" alt="share"><span>SHARE</span></button>
+      
+            <!-- Share button -->
+           
+            
+        
+            <!-- Social icons -->
+            <div class="social-icons">
+              <img src="./1000128813-removebg-preview.png" alt="Facebook">
+              <img src="./1000128816-removebg-preview.png" alt="Instagram">
+            </div>
+    </center>
+  
+    
+
+    <table>
+      <thead>
+        <tr>
+          <th>अ.क्र.</th>
+          <th>उमेदवाराचे नाव</th>
+          <th></th>
+          <th>चिन्ह</th>
+          <th>बल्ब</th>
+          <th>बटण</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row 1 -->
+        <tr class="highlight">
+          <td>1</td>
+          <td>कदम विश्वजीत पतंगराव</td>
+          <td><img src="./Jitesh.jpg" width="70px" height="70px" alt="image"></td>
+          <td><img src="./hand.png" width="70px" alt="Hand Symbol"></td>
+          <td><span id="arrow-1" class="arrow">&larr;</span></td>
+          <td><button class="vote-button" onclick="handleVote(1)">बटन दाबा</button></td>
+        </tr>
+        <!-- Repeat for other rows -->
+        <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><span id="arrow-2" class="arrow">&larr;</span></td>
+          <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><span id="arrow-3" class="arrow">&larr;</span></td>
+          <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-4" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-5" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-6" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-7" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-8" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-9" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>10</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-10" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>11</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-11" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>12</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-12" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>13</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-13" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>14</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-14" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>15</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-15" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <tr>
+        <td>16</td>
+        <td>Nota</td>
+        <td></td>
+        <td></td>
+        <td><span id="arrow-16" class="arrow">&larr;</span></td>
+        <td><button class="vote-button height"></button></td>
+        </tr>
+        <!-- Repeat up to Row 16 (NOTA) -->
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Add the sound file -->
+  <audio id="click-sound" src="./mixkit-christmas-magic-bell-hit-939.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
